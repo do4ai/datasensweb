@@ -13,10 +13,6 @@
     --bg-light: #f3f7fd;
     --bg-white: #ffffff;
     --border: #e6edf6;
-    --dot: rgba(47, 128, 237, 0.14);
-    /* 폴카닷 패턴용 (밝은 배경) */
-    --dot-light: rgba(255, 255, 255, 0.18);
-    /* 폴카닷 패턴용 (진한 배경) */
     --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -73,8 +69,6 @@ ul {
 
 .bg-primary {
     background-color: var(--primary);
-    background-image: radial-gradient(var(--dot-light) 2px, transparent 2.5px);
-    background-size: 22px 22px;
     color: #fff;
 }
 
@@ -89,12 +83,12 @@ h4 {
 }
 
 .section {
-    padding: 5rem 0;
+    padding: 3.2rem 0;
 }
 
 .section-header {
     text-align: center;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
 .section-header h2 {
@@ -258,14 +252,12 @@ h4 {
 
 /* ===== Hero ===== */
 .hero {
-    padding: 9rem 1rem 5rem;
+    padding: 6.5rem 1rem 3rem;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
     background-color: var(--bg-light);
-    background-image: radial-gradient(var(--dot) 2px, transparent 2.5px);
-    background-size: 24px 24px;
     color: var(--secondary);
     text-align: center;
     overflow: hidden;
@@ -277,28 +269,28 @@ h4 {
 }
 
 .hero-logo {
-    height: 90px;
+    height: 72px;
     width: auto;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
 }
 
 .hero h1 {
-    font-size: 2.8rem;
-    margin-bottom: 0.6rem;
+    font-size: 2.6rem;
+    margin-bottom: 0.5rem;
 }
 
 .hero .tagline-ko {
-    font-size: 1.15rem;
+    font-size: 1.1rem;
     color: var(--text-muted);
-    margin-bottom: 1.8rem;
+    margin-bottom: 1.2rem;
     font-weight: 400;
 }
 
 .hero p.lead {
-    font-size: 1.05rem;
+    font-size: 1.02rem;
     color: var(--text-main);
     max-width: 620px;
-    margin: 0 auto 2rem;
+    margin: 0 auto 1.5rem;
 }
 
 .hero-buttons {
@@ -314,7 +306,7 @@ h4 {
     grid-template-columns: repeat(4, 1fr);
     gap: 1.5rem;
     max-width: 900px;
-    margin: 3rem auto 0;
+    margin: 2rem auto 0;
 }
 
 .stat-item {
@@ -350,8 +342,6 @@ h4 {
 
 .about-card {
     background-color: var(--primary);
-    background-image: radial-gradient(var(--dot-light) 2px, transparent 2.5px);
-    background-size: 20px 20px;
     border-radius: 20px;
     padding: 2.5rem;
     color: #fff;
@@ -387,7 +377,7 @@ h4 {
 
 .feature-card {
     background: #fff;
-    border: 1px solid var(--border);
+    border: 2px dotted var(--accent);
     padding: 2.2rem;
     border-radius: 16px;
     transition: var(--transition);
@@ -449,7 +439,7 @@ h4 {
 
 /* ===== CTA banner ===== */
 .cta-banner {
-    padding: 4.5rem 0;
+    padding: 3rem 0;
     text-align: center;
 }
 
@@ -504,7 +494,7 @@ h4 {
 .footer {
     background: var(--secondary);
     color: #fff;
-    padding: 3.5rem 0 1.8rem;
+    padding: 2.6rem 0 1.4rem;
 }
 
 .footer-grid {
