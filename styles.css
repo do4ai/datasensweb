@@ -13,6 +13,10 @@
     --bg-light: #f3f7fd;
     --bg-white: #ffffff;
     --border: #e6edf6;
+    --dot: rgba(47, 128, 237, 0.14);
+    /* 폴카닷 패턴용 (밝은 배경) */
+    --dot-light: rgba(255, 255, 255, 0.18);
+    /* 폴카닷 패턴용 (진한 배경) */
     --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -68,7 +72,9 @@ ul {
 }
 
 .bg-primary {
-    background: linear-gradient(135deg, var(--primary) 0%, #1f5fc4 100%);
+    background-color: var(--primary);
+    background-image: radial-gradient(var(--dot-light) 2px, transparent 2.5px);
+    background-size: 22px 22px;
     color: #fff;
 }
 
@@ -125,13 +131,13 @@ h4 {
 .btn-primary {
     background: var(--primary);
     color: #fff;
-    box-shadow: 0 4px 14px rgba(47, 128, 237, 0.3);
+    box-shadow: 0 2px 6px rgba(47, 128, 237, 0.18);
 }
 
 .btn-primary:hover {
     background: var(--primary-dark);
     transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(47, 128, 237, 0.4);
+    box-shadow: 0 4px 12px rgba(47, 128, 237, 0.22);
 }
 
 .btn-secondary {
@@ -257,10 +263,9 @@ h4 {
     align-items: center;
     justify-content: center;
     position: relative;
-    background:
-        radial-gradient(circle at 20% 20%, rgba(127, 177, 242, 0.25), transparent 45%),
-        radial-gradient(circle at 80% 30%, rgba(47, 128, 237, 0.18), transparent 40%),
-        linear-gradient(135deg, #f3f7fd 0%, #ffffff 100%);
+    background-color: var(--bg-light);
+    background-image: radial-gradient(var(--dot) 2px, transparent 2.5px);
+    background-size: 24px 24px;
     color: var(--secondary);
     text-align: center;
     overflow: hidden;
@@ -344,11 +349,13 @@ h4 {
 }
 
 .about-card {
-    background: linear-gradient(135deg, var(--primary) 0%, #1f5fc4 100%);
+    background-color: var(--primary);
+    background-image: radial-gradient(var(--dot-light) 2px, transparent 2.5px);
+    background-size: 20px 20px;
     border-radius: 20px;
     padding: 2.5rem;
     color: #fff;
-    box-shadow: 0 20px 45px rgba(47, 128, 237, 0.25);
+    box-shadow: 0 12px 30px rgba(47, 128, 237, 0.18);
 }
 
 .about-card h3 {
