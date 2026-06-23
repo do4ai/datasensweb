@@ -1,18 +1,21 @@
 /* ===== DataSens Inc. — Corporate Site ===== */
 /* Palette derived from the DataSens logo: slate-gray nodes + blue accent node */
 :root {
-    --primary: #2f80ed;
-    /* Accent node blue */
-    --primary-dark: #1c6cd6;
+    --primary: #6aa3e6;
+    /* 파스텔 스카이블루 */
+    --primary-dark: #5790db;
     --secondary: #2d3748;
     /* Slate (logo wordmark) */
     --slate: #4a5568;
-    --accent: #7fb1f2;
+    --accent: #aacdf2;
+    /* 더 연한 파스텔 */
+    --navy: #1f2d57;
+    /* 세련된 군청 (Mission & Values 대비용) */
     --text-main: #334155;
     --text-muted: #64748b;
-    --bg-light: #f3f7fd;
+    --bg-light: #f5f9fd;
     --bg-white: #ffffff;
-    --border: #e6edf6;
+    --border: #e9f0f8;
     --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -342,11 +345,11 @@ h4 {
 }
 
 .about-card {
-    background-color: var(--primary);
+    background-color: var(--navy);
     border-radius: 16px;
     padding: 1.8rem;
     color: #fff;
-    box-shadow: 0 12px 30px rgba(47, 128, 237, 0.18);
+    box-shadow: 0 16px 36px rgba(31, 45, 87, 0.28);
 }
 
 .about-card h3 {
@@ -361,12 +364,12 @@ h4 {
     gap: 0.6rem;
     margin-bottom: 0.6rem;
     font-size: 0.88rem;
-    color: rgba(255, 255, 255, 0.92);
+    color: rgba(255, 255, 255, 0.88);
 }
 
 .about-card ul li i {
     margin-top: 0.25rem;
-    color: #cfe2ff;
+    color: var(--accent);
 }
 
 /* ===== Cards grid (services / why) ===== */
