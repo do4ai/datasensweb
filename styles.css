@@ -1,21 +1,20 @@
 /* ===== DataSens Inc. — Corporate Site ===== */
 /* Palette derived from the DataSens logo: slate-gray nodes + blue accent node */
 :root {
-    --primary: #6aa3e6;
-    /* 파스텔 스카이블루 */
-    --primary-dark: #5790db;
+    --primary: #2f80ed;
+    /* Accent node blue */
+    --primary-dark: #1c6cd6;
     --secondary: #2d3748;
     /* Slate (logo wordmark) */
     --slate: #4a5568;
-    --accent: #aacdf2;
-    /* 더 연한 파스텔 */
+    --accent: #7fb1f2;
     --navy: #1f2d57;
     /* 세련된 군청 (Mission & Values 대비용) */
     --text-main: #334155;
     --text-muted: #64748b;
-    --bg-light: #f5f9fd;
+    --bg-light: #f3f7fd;
     --bg-white: #ffffff;
-    --border: #e9f0f8;
+    --border: #e6edf6;
     --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
