@@ -1,6 +1,6 @@
 # DataSens 기업 홈페이지
 
-데이터센스 주식회사(DataSens Co., Ltd.)의 공식 웹사이트입니다.
+데이터센스 주식회사(DataSens Inc.)의 공식 웹사이트입니다.
 순수 정적 사이트(HTML/CSS/JS)로 제작되어 GitHub Pages로 바로 배포할 수 있습니다.
 
 ## 구조
