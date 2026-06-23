@@ -83,7 +83,7 @@ h4 {
 }
 
 .section {
-    padding: 3.2rem 0;
+    padding: 2.4rem 0;
 }
 
 .section-header {
@@ -328,7 +328,7 @@ h4 {
 .about-grid {
     display: grid;
     grid-template-columns: 1.4fr 1fr;
-    gap: 3.5rem;
+    gap: 2.4rem;
     align-items: center;
 }
 
@@ -372,13 +372,13 @@ h4 {
 .card-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 1.8rem;
+    gap: 1.3rem;
 }
 
 .feature-card {
     background: #fff;
-    border: 2px dotted var(--accent);
-    padding: 2.2rem;
+    border: 1px solid var(--border);
+    padding: 1.7rem 1.8rem;
     border-radius: 16px;
     transition: var(--transition);
     position: relative;
