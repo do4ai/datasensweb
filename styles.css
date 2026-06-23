@@ -528,6 +528,49 @@ h4 {
     color: var(--primary);
 }
 
+/* ===== Education ===== */
+.edu-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.7rem 1.1rem;
+}
+
+.edu-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 0.8rem 1.1rem;
+    transition: var(--transition);
+}
+
+.edu-item:hover {
+    border-color: var(--primary);
+    transform: translateX(4px);
+    box-shadow: 0 8px 20px rgba(31, 45, 87, 0.06);
+}
+
+.edu-date {
+    flex: 0 0 auto;
+    font-size: 0.78rem;
+    font-weight: 700;
+    color: var(--primary);
+    min-width: 80px;
+    text-align: center;
+}
+
+.edu-body h4 {
+    font-size: 0.92rem;
+    margin-bottom: 0.1rem;
+}
+
+.edu-client {
+    font-size: 0.78rem;
+    color: var(--text-muted);
+}
+
 /* ===== CTA banner ===== */
 .cta-banner {
     padding: 3rem 0;
@@ -730,7 +773,8 @@ h4 {
 }
 
 @media (max-width: 700px) {
-    .project-grid {
+    .project-grid,
+    .edu-list {
         grid-template-columns: 1fr;
     }
 }
