@@ -13,7 +13,7 @@
     <link rel="icon" href="assets/img/logo_datasens_transparent.png">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="styles.css?v=20260624g">
+    <link rel="stylesheet" href="styles.css?v=20260624h">
 </head>
 
 <body>
@@ -29,6 +29,7 @@
                 <li><a href="#about"><span>About</span><span class="nav-ko">회사소개</span></a></li>
                 <li><a href="#solutions"><span>Solutions</span><span class="nav-ko">솔루션</span></a></li>
                 <li><a href="#why"><span>Why Us</span><span class="nav-ko">강점</span></a></li>
+                <li><a href="#portfolio"><span>Portfolio</span><span class="nav-ko">프로젝트</span></a></li>
                 <li><a href="#contact" class="btn-contact"><span>Contact</span><span class="nav-ko">문의</span></a></li>
             </ul>
 
@@ -64,10 +65,10 @@
                     <div class="stat-num">End-to-End</div>
                     <div class="stat-label">기획부터 운영까지</div>
                 </div>
-                <div class="stat-item">
+                <a class="stat-item stat-link" href="https://senscore.github.io" target="_blank" rel="noopener">
                     <div class="stat-num">R&amp;D</div>
-                    <div class="stat-label">산학 연계 연구개발</div>
-                </div>
+                    <div class="stat-label">산학 연계 연구실 <i class="fas fa-arrow-up-right-from-square"></i></div>
+                </a>
             </div>
         </div>
     </header>
@@ -201,6 +202,63 @@
                     <h3 class="text-en">End-to-End</h3>
                     <h4 class="text-ko">전 과정 지원</h4>
                     <p>데이터 수집과 모델 개발에서 배포·운영·고도화까지, 프로젝트 전 주기를 책임집니다.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="text-en">Portfolio</h2>
+                <div class="text-ko">주요 프로젝트</div>
+                <div class="divider"></div>
+            </div>
+
+            <div class="project-grid fade-in">
+                <div class="project-card">
+                    <div class="project-meta">
+                        <span class="project-tag">음성 AI · LLM · TTS</span>
+                        <span class="project-year">VAXPORT㈜ · 2025</span>
+                    </div>
+                    <h3>LLM·RAG 기반 음성 복원 시스템</h3>
+                    <p>위안부 할머니의 음성을 복원해 응답 시스템을 구축하고, 예외 응답에 대한 안전 가이드레일을 구현했습니다.
+                        기림의 날 '다시 만난 나비' 행사에 활용되었습니다.</p>
+                    <div class="project-outcome"><i class="fas fa-bolt"></i> 응답 처리시간 30초 → 6초 단축</div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-meta">
+                        <span class="project-tag">음향 딥러닝 · 사업화</span>
+                        <span class="project-year">중소기업기술정보진흥원 · 2023–2025</span>
+                    </div>
+                    <h3>음성 품질 고도화 기술</h3>
+                    <p>재난안전용 통신기기의 음성 품질 저하를 개선. 2D 스펙트럼 변환 분석과 실시간성 확보를 위한 1D-CNN
+                        경량화 기법을 적용해 제품화에 성공했습니다.</p>
+                    <div class="project-outcome"><i class="fas fa-award"></i> SCIE 논문 1편 · 우수논문상 6편</div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-meta">
+                        <span class="project-tag">바이오메디컬 · 신호처리</span>
+                        <span class="project-year">한국연구재단 · 2021–2024</span>
+                    </div>
+                    <h3>생체신호 측정 AI 자동화</h3>
+                    <p>고령층·하반신 장애가 있는 분도 앉기만 하면 불편함 없이 생체 신호를 측정하도록 구현하고,
+                        신호품질지표 기반 AI 자동화의 기틀을 마련했습니다.</p>
+                    <div class="project-outcome"><i class="fas fa-award"></i> SCIE 논문 1편 · 우수논문상 2편</div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-meta">
+                        <span class="project-tag">생성형 AI · 챗봇</span>
+                        <span class="project-year">아토머스㈜ · 2022–2025</span>
+                    </div>
+                    <h3>심리 상담 챗봇 &amp; 템플릿 시스템</h3>
+                    <p>생성형 AI 기반 응답 시스템과 전문가 답변 초안 템플릿을 구축하여 상담 전문가의 업무 부담을
+                        크게 줄였습니다.</p>
+                    <div class="project-outcome"><i class="fas fa-chart-line"></i> 고객만족도 65% → 92% 상승</div>
                 </div>
             </div>
         </div>
